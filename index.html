@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <div class="box">
+          <label for="Height">Height (cm):</label>
+          <input
+            type="number"
+            placeholder="Enter your Height"
+            name=""
+            id="Height"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label for="weight">Weight (kg):</label>
+          <input
+            type="number"
+            placeholder="Enter your Weight"
+            name=""
+            id="Weight"
+            required
+          />
+        </div>
+        <!-- sumbit-Button -->
+        <button class="calc" onclick="calculateBMI()">Calculate</button>
+        <button id="reset" onclick="resetForm()">
+          Reset <i class="fa-solid fa-rotate-right"></i>
+        </button>
+        <div id="result"></div>
+      </div>
+      <!-- BMI-Line -->
+      <div class="bmi-line">
+        <div class="bmi-mark">
+          <span>&lt; 18.5</span>
+          <span>18.5 - 24.9</span>
+          <span>25.0 - 29.9</span>
+          <span>&ge; 30.0</span>
+        </div>
+      </div>
+      <div class="BMI">
+        <a
+          href="https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi"
+          target="_blank"
+          ><span class="ques">What is BMI?</span></a
+        >
+      </div>
+      <div class="love">
+        Made with<span class="art"> &#10084; </span> by Kuldeep Sharma
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  transition: all 0.3s;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 52vh;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+input {
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 3px 5px;
+}
+
+.calc {
+  padding: 3px 6px;
+  font-size: 2vh;
+  margin: 15px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: #fff;
+  color: green;
+}
+
+#reset {
+  padding: 3px 6px;
+  font-size: 2vh;
+  margin: 15px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: #fff;
+  color: red;
+}
+
+#reset:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.calc:hover {
+  color: #fff;
+  background-color: green;
+}
+
+.bmi-line {
+  width: auto;
+  height: 20px;
+  background: linear-gradient(
+    to right,
+    yellow 0%,
+    lightgreen 35%,
+    lightcoral 75%,
+    darkred 100%
+  );
+  border-radius: 10px;
+  overflow: hidden;
+
+  margin-top: 50px;
+}
+
+.bmi-mark {
+  font-size: 11px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 3px;
+  padding: 0px 10px;
+}
+
+.BMI {
+  margin: 30px;
+}
+
+.BMI a {
+  color: blue;
+}
+
+.love {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  font-family: "Courier New";
+  align-items: center;
+  color: #8a8f99;
+}
+
+.art {
+  margin: 5px;
+  font-weight: 800;
+  color: rgb(199, 25, 25);
+}
