@@ -17,13 +17,13 @@ function calculateBMI() {
 
 function interpretBMI(bmi) {
   if (bmi < 18.5) {
-    return "This is considered underweight.";
+    return "<br>You are underweight. 🍏";
   } else if (bmi >= 18.5 && bmi <= 24.9) {
-    return "This is considered normal weight.";
+    return "<br>You have a normal weight. 👌";
   } else if (bmi >= 25 && bmi <= 29.9) {
-    return "This is considered overweight.";
+    return "<br>You are overweight. 🤔";
   } else {
-    return "This is considered obese.";
+    return "<br>You are obese. 🚨";
   }
 }
 function resetForm() {

@@ -44,6 +44,10 @@ input {
   color: green;
 }
 
+#result {
+  height: 8vh;
+}
+
 #reset {
   padding: 3px 6px;
   font-size: 2vh;
@@ -76,8 +80,7 @@ input {
   );
   border-radius: 10px;
   overflow: hidden;
-
-  margin-top: 50px;
+  /* position: relative; */
 }
 
 .bmi-mark {
