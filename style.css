@@ -20,7 +20,7 @@ body {
   border-radius: 8px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   text-align: center;
-  height: auto;
+  height: 350px;
 }
 
 h1 {
@@ -104,7 +104,7 @@ input {
 .love {
   display: flex;
   justify-content: center;
-  margin-top: 8vh;
+  margin-top: 10vh;
   font-family: "Courier New";
   align-items: center;
   color: #8a8f99;
